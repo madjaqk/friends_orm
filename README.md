@@ -1,1 +1,1 @@
-Use this repo (and the User and Friendship models within) for the CodingDojo Friendship assignments in the Django Level 2 curriculum.
+###Clone this repo for the CodingDojo Friendship assignments in the Django Level 2 curriculum.
