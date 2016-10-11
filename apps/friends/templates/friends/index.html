@@ -7,7 +7,7 @@
 		<h1>Friends</h1>
 		<ol>
 			{% for user in users %}
-				<li>{{user.first_name}} {{user.last_name}}</li> 
+				<li value="{{user.id}}">{{user.first_name}} {{user.last_name}}</li> 
 				{# Boy, typing {{user.first_name}} {{user.last_name}} over and over gets tiresome.  If only there was some way we could define for Python what we want it to show when we try to print the user... #}
 			{% endfor %}
 		</ol>
